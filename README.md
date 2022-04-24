@@ -1,7 +1,9 @@
 # Homework 2 ELE2765
 Homework 2 of Deep Learning subject on Electrical Engineering Master's at PUC-Rio
 
-![Feature Levels](feature_levels.png)
+<p align="center">
+  <img src="feature_levels.png" alt="Sublime's custom image"/>
+</p>
 
 This homework has the objective to do a transfer learning in Resnet50 using three different approaches. The dataset used was flowers recognition dataset.
 
