@@ -12,3 +12,7 @@ In The first approach, question 5, I just unfrozen the last block of convolution
 In the second approach, question 6, was demanded to unfrozen another convolutional block (conv5_block2), besides the previously one, and add a fully connected layer before softmax layer. In this approach, Models 4-9 was produced.
 
 In the third approach, question 7, was demanded to to use the last three convolutional blocks untrained (conv5_block3, conv5_block2, conv5_5_block1). to do this, I reimplemented these blocks of resnet in function `create_custom_model_q7` inside `train_transfer_learning.py` script. In this approach, Models 10-14 was produced.
+
+<p align="center">
+  <img src="tabela_modelo_print.png" alt="Model training trials"/>
+</p>
