@@ -1,6 +1,8 @@
 # Homework 2 ELE2765
 Homework 2 of Deep Learning subject on Electrical Engineering Master's at PUC-Rio
 
+![Feature Levels](feature_levels.png)
+
 This homework has the objective to do a transfer learning in Resnet50 using three different approaches. The dataset used was flowers recognition dataset.
 
 In The first approach, question 5, I just unfrozen the last block of convolution in Resnet50 (conv_5_block3). I used a small amount of dropout (0.25) just before softmax. In this approach, Models 1-3 was produced.
